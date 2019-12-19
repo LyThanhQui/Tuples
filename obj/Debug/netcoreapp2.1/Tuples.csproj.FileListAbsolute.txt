@@ -1,0 +1,4 @@
+H:\demo dotnettutorials\3. C# 7.X new Features\Tuples\Tuples\obj\Debug\netcoreapp2.1\Tuples.csprojAssemblyReference.cache
+H:\demo dotnettutorials\3. C# 7.X new Features\Tuples\Tuples\obj\Debug\netcoreapp2.1\Tuples.csproj.CoreCompileInputs.cache
+H:\demo dotnettutorials\3. C# 7.X new Features\Tuples\Tuples\obj\Debug\netcoreapp2.1\Tuples.AssemblyInfoInputs.cache
+H:\demo dotnettutorials\3. C# 7.X new Features\Tuples\Tuples\obj\Debug\netcoreapp2.1\Tuples.AssemblyInfo.cs
