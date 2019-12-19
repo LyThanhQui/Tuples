@@ -10,8 +10,10 @@ namespace Tuples
         {
             var values = new List<double>() { 10, 20, 30, 40, 50, 60 };
             // Tuple<int, double> t = Calulate(values);
-            var result = Calulate(values);
-            Console.WriteLine($"There are {result.Item1} values and their sum is {result.Item2}, Test value is {result.Item3}");
+            //  var result = Calulate(values);
+            //Console.WriteLine($"There are {result.Item1} values and their sum is {result.Item2}, Test value is {result.Item3}");
+            var (CountResult, SumResult, IResult) = Calulate(values);
+            Console.WriteLine($"There are {CountResult} values adn their sum is {SumResult} and test {IResult} value");
             Console.ReadKey();
         }
 
