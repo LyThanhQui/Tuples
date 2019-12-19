@@ -33,12 +33,27 @@ namespace Tuples
         }*/
 
         //overcome the above Problems in C# 7
-        private static (int, double, int) Calulate(IEnumerable<double> values)
+        /* private static (int, double, int) Calulate(IEnumerable<double> values)
+         {
+             int count = 0;
+             double sum = 0.0;
+             int i = 0;
+             foreach(var value in values)
+             {
+                 i--;
+                 count++;
+                 sum += value;
+             }
+             return (count, sum, i);
+         }*/
+
+        //Tuples in C# with named Parameters:
+        private static (int c, double s, int i) Calulate(IEnumerable<double> values)
         {
             int count = 0;
             double sum = 0.0;
             int i = 0;
-            foreach(var value in values)
+            foreach (var value in values)
             {
                 i--;
                 count++;
@@ -46,5 +61,6 @@ namespace Tuples
             }
             return (count, sum, i);
         }
+    
     }
 }
